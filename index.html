@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav class="bg-gray-800 sticky top-0">
+      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+        <div class="relative flex items-center justify-between h-16">
+          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <button
+              type="button"
+              class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            >
+              <svg
+                class="block h-6 w-6"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path></svg
+              ><svg
+                class="hidden h-6 w-6"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
+          >
+            <div class="flex-shrink-0 flex items-center">
+              <span class="block lg:hidden w-auto font-bold text-white"
+                >MyCompany</span
+              ><span class="hidden lg:block w-auto font-bold text-white"
+                >MyCompany</span
+              >
+            </div>
+            <div class="hidden sm:block sm:ml-6">
+              <div class="flex space-x-4">
+                <a
+                  href="#"
+                  class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+                  aria-current="page"
+                  >Dashboard</a
+                ><a
+                  href="#"
+                  class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >Team</a
+                ><a
+                  href="#"
+                  class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >Projects</a
+                ><a
+                  href="#"
+                  class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >Calendar</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
+          >
+            <button
+              type="button"
+              class="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+            >
+              <span class="sr-only">View notifications</span
+              ><svg
+                class="h-6 w-6"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+                ></path>
+              </svg>
+            </button>
+            <div class="ml-3 relative">
+              <button
+                type="button"
+                class="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                id="user-menu-button"
+              >
+                <span
+                  class="h-8 w-8 bg-blue-400 rounded-full text-white font-medium items-center text-center flex justify-center"
+                  >MS</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section
+      class="bg-gray-800 flex justify-center items-center w-full h-screen"
+    >
+      <section
+        class="md:justify-between justify-center md:gap-x-6 gap-x-0 gap-y-6 md:gap-y-0 items-start pt-2 md:pt-40 w-full h-full flex flex-col md:flex-row px-16"
+      >
+        <img width="400" src="./assets/employee.svg" />
+        <div class="flex flex-col gap-y-6">
+          <h1
+            class="text-white md:text-4xl sm:text-3xl text-2xl font-bold text-center md:text-left"
+          >
+            Let's make Business more Enjoy with us!
+          </h1>
+          <p class="text-white text-center md:text-start">
+            Create a business with less effort and more secure so you dont need
+            to worry
+          </p>
+          <div class="flex gap-x-4 justify-center md:justify-start">
+            <button
+              class="undefined undefined w-auto h-auto border-1 border-white text-white bg-gray-700 rounded-lg p-3"
+            >
+              Lets Talk</button
+            ><button
+              class="undefined undefined w-auto h-auto bg-white text-gray-700 rounded-lg p-3"
+            >
+              Learn More
+            </button>
+          </div>
+          <div class="grid grid-cols-3 w-auto lg:w-md grid-row-2 gap-x-2">
+            <img src="./assets/logoipsum.png" /><img
+              src="./assets/logoipsum.png"
+            /><img src="./assets/logoipsum.png" /><img
+              src="./assets/logoipsum.png"
+            /><img src="./assets/logoipsum.png" /><img
+              src="./assets/logoipsum.png"
+            />
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="bg-white flex justify-center items-center w-full h-screen">
+      <section
+        class="md:justify-between justify-center md:gap-x-6 gap-x-0 gap-y-6 md:gap-y-0 items-start pt-2 md:pt-[200px] w-full h-full flex flex-col md:flex-row px-10"
+      >
+        <div
+          class="flex gap-y-10 flex-col w-auto md:w-1/2 order-2 justify-start items-end h-full"
+        >
+          <div class="w-full h-auto">
+            <h1 class="text-gray-700 font-bold text-3xl">
+              01 Be More Productive
+            </h1>
+            <span class="text-gray-600 font-medium text-xl"
+              >Our happy client that enjoy his bisnis with us</span
+            >
+          </div>
+          <div class="w-full h-auto">
+            <h1 class="text-gray-700 font-bold text-3xl">
+              01 Be More Productive
+            </h1>
+            <span class="text-gray-600 font-medium text-xl"
+              >Our happy client that enjoy his bisnis with us</span
+            >
+          </div>
+          <div class="w-full h-auto">
+            <h1 class="text-gray-700 font-bold text-3xl">
+              01 Be More Productive
+            </h1>
+            <span class="text-gray-600 font-medium text-xl"
+              >Our happy client that enjoy his bisnis with us</span
+            >
+          </div>
+          <div class="w-full h-auto">
+            <h1 class="text-gray-700 font-bold text-3xl">
+              01 Be More Productive
+            </h1>
+            <span class="text-gray-600 font-medium text-xl"
+              >Our happy client that enjoy his bisnis with us</span
+            >
+          </div>
+        </div>
+        <div class="flex gap-y-8 flex-col w-auto md:w-1/2 mt-[200px] md:mt-0">
+          <h1 class="text-gray-700 font-medium text-4xl">
+            Need to know what you need
+          </h1>
+          <p class="text-gray-800 text-center md:text-start">
+            Let's see something in here that maybe you should know and need for
+            growing to success with us
+          </p>
+          <div class="bg-gray-100 w-full h-auto p-8">
+            <h1 class="text-green-500 font-bold text-3xl">1200+</h1>
+            <span class="text-gray-600 font-medium text-xl"
+              >Our happy client that enjoy his bisnis with us</span
+            >
+          </div>
+        </div>
+      </section>
+    </section>
+    <footer
+      class="p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 sticky bottom-0"
+    >
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+        >© 2022
+        <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>.
+        All Rights Reserved.</span
+      >
+      <ul
+        class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0"
+      >
+        <li><a href="#" class="mr-4 hover:underline md:mr-6">About</a></li>
+        <li>
+          <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
+        </li>
+        <li><a href="#" class="hover:underline">Contact</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
